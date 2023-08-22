@@ -7,38 +7,69 @@
 
 body {
     background-color: rgb(88, 179, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 70px;
 }
 
 
 img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     width: 100%;
+    
 
 }
 
 
 .form {
-width: fit-content;
-border-top-right-radius: 15px;
-border-bottom-right-radius: 15px;
-padding: 10px;
-background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0px;
+    background-color: white;
+    padding-right: 0px;
 }
 
 .image {
+    background-image: url("image.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color:  rgb(88, 179, 244);
+    padding-top: 369px;
+}
+
+.image-text {
+    color: white;
+    margin-right: auto;
+    margin-bottom: 160px;
+
+}
+
+.price{
+    color: white;
+    margin-left: auto;
+    margin-top: 100px;
     
 }
 
 .registeration {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px;
 }
 
 input {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 10px;
 }
 
 h5 {
@@ -49,14 +80,15 @@ h5 {
 .name {
     margin-top: 30px;
     color: grey;
-    
+
 }
 
 .email {
     margin-top: 30px;
     color: grey;
     font-style: normal;
-    }
+}
+
 .password {
     margin-top: 30px;
     color: gray;
@@ -70,8 +102,7 @@ h5 {
 
 .checkbox {
 
-    
-}  
+}
 
 .box {
     display: inline-block;
@@ -91,9 +122,6 @@ h5 {
     color: white;
     border-radius: 5px;
     font-size: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 40px;
     margin-top: 40px;
 }
